@@ -21,12 +21,12 @@
     display: block;
     width: 100%;
     text-align: center;
-    text-indent: 1em;
 }
 
 .content p
 {
   text-align: justify;
+  text-indent: 1em;
 }
 
 .content h1
