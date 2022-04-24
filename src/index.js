@@ -7,10 +7,10 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { MainMenu } from './Components/MainMenu';
 import { ContentArea } from './Components/ContentArea';
 
-import { Home } from './Home';
-import { Music } from './Music';
-import { Software } from './Software';
-import { Contact } from './Contact';
+import { Home } from './Pages/Home';
+import { Music } from './Pages/Music';
+import { Software } from './Pages/Software';
+import { Contact } from './Pages/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
