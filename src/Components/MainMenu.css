@@ -1,0 +1,53 @@
+.mainMenu
+{
+  position: relative;
+  top: 5vh;
+  margin: auto;
+  width: 75%;
+  background-color: green;
+
+  display: flex;
+  flex-direction: row;
+
+  border-radius: 10px;
+  list-style: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+.menuItem
+{
+  flex: 1;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.menuItem a
+{
+  cursor: pointer;
+  padding: 10px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+}
+
+.menuItem a:hover
+{
+  background-color: lightgreen;
+  transform: scale(1.125);
+}
+
+.menuItemActive
+{
+  background-color: blue;
+}
+
+.menuItemActive a:hover
+{
+  background-color: blue;
+  transform: scale(1.125);
+}

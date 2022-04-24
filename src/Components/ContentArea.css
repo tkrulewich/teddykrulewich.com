@@ -1,0 +1,16 @@
+.contentArea
+{
+  border-radius: 15px;
+  margin: auto;
+  width: 75%;
+  position: relative;
+  top: 10vh;
+
+  border-width: 0.25em;
+  border-style: solid;
+  border-color:forestgreen;
+  background-color: white;
+  display: flex;
+  flex: 1;
+  text-align: center;
+}
