@@ -14,7 +14,7 @@ function TheMGDs(props)
             <h2>The MGDs</h2>
             <img src={mgds_photo} />
             <div className="bandSocialMedia">
-                Website:<br /> <a href="#">http://www.themgds.com/</a> <br/>
+                Website:<br /> <a href="http://www.themgds.com/">http://www.themgds.com/</a> <br/>
                 Social Media:<br />
                 <a href="https://www.facebook.com/themgds"><FaFacebook /></a>
                 <a href="https://www.instagram.com/themgds/"><FaInstagram /></a>

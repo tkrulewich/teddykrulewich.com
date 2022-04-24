@@ -1,0 +1,21 @@
+.contactInfo
+{
+    background-color:ghostwhite;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 0.125em;
+    border-color: gray;
+    width:fit-content;
+    padding: 1em;
+    display: block;
+    margin: auto;
+    text-align: left;
+    text-indent: 0px;
+    line-height: 2em;
+    flex: 1;
+}
+
+.contactInfo a
+{
+    color: green;   
+}

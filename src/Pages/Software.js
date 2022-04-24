@@ -1,7 +1,7 @@
 export function Software()
 {
     return (
-        <div className="softwarePage">
+        <div className="content">
             <h1>Software</h1>
         </div>
     );

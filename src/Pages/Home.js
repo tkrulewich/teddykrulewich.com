@@ -15,10 +15,10 @@ function BioPhoto()
 export function Home(props)
 {
     return (
-        <div>
+        <div className="content">
         <BioPhoto />
         <h2>Teddy Krulewich</h2>
-        <p>Software developer and professional musician</p>
+        Software developer and professional musician<br/><br/>
         <SocialMediaIcons />
       </div>
     );

@@ -14,3 +14,22 @@
   flex: 1;
   text-align: center;
 }
+
+.content
+{
+    padding: 1em;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-indent: 1em;
+}
+
+.content p
+{
+  text-align: justify;
+}
+
+.content h1
+{
+  text-align: center;
+}
