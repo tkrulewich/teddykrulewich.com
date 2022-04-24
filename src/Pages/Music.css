@@ -30,9 +30,9 @@
 
 .bandInfo img
 {
-    border-radius: 25%;
+    border-radius: 15px;
     display: block;
     margin: auto;
-    height: 15em;
-    width: 15em;
+    height: 10em;
+    width: auto;
 }
