@@ -5,8 +5,8 @@ import { NavLink, useLocation } from 'react-router-dom';
 
 function MenuItem(props)
 {
-  let location = useLocation().pathname;
-  const active = (location == props.to);
+  let location = useLocation().pathname.toLowerCase();
+  const active = (location == props.to.toLowerCase());
 
   if (active)
   {
